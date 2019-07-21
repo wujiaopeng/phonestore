@@ -1,0 +1,8 @@
+.publicTime{
+    background: linear-gradient(to bottom,#f5f9f8,#eef2fb,#e2ecf5,#e2ecf5,#e0edf6);
+    color: #808589;    
+}
+#time{
+    float: right;
+    padding-left: 26px;
+}

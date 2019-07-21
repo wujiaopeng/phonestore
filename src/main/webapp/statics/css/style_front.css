@@ -1,0 +1,327 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+#container{
+	width:90%;
+	height:750px;
+	margin:1px auto;
+}
+/*箭头样式*/
+#next{
+	cursor: pointer;
+	position: absolute;
+	top:44%;
+	right:-44px;
+}
+#prev{
+	cursor: pointer;
+	position: absolute;
+	top:44%;
+	left:-44px;
+}
+#prev img,#next img{
+	width:44px;
+	height:64px;
+}
+
+/*圆圈样式*/
+.circle{
+	position: absolute;
+	bottom: 10px;
+	right:10px;
+}
+.circle span{
+	cursor: pointer;
+	display: block;
+	float:left;
+	width:15px;
+	height:15px;
+	background-color:white;
+	border: 4px solid #404040;
+	border-radius: 50%;
+	margin:2px;
+}
+.circle .active{
+	background-color: #404040;
+}
+
+/*轮播样式*/
+.slide{
+	display:block;
+	width:100%;
+	height:600px;
+	position:relative;
+	overflow: hidden;
+}
+#img ul li{
+	list-style: none;
+	display:block;
+	width:100%;
+	height:600px;
+	float:left;
+}
+#img ul li a img{
+	width:100%;
+	height:600px;
+}
+
+.phone_user{
+	width:80%;
+	height:160px;
+	background: #fff;
+	margin: 0 auto;
+	position: relative;
+	border-radius: 5px;
+    bottom: 100px;
+    padding-top:30px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
+}
+
+.huawei_user,.mi_user,.iphone_user{
+	width:32%;
+	height:130px;
+	float:left;
+	margin-right:1%;
+}
+
+.mi_user,.iphone_user{
+	    border-left: 1px solid #d4d4d4;
+}
+.phone_user .left_logo{
+	width:100px;
+	height:100px;
+	margin-left: 10px;
+	float: left;
+}
+.phone_user img{
+	width:100px;
+	height:100px;
+}
+
+.phone_user .right_text{
+	float:left;
+	width:50%;
+	margin-left:10%;
+	height:100px;
+}
+
+
+#recommend{
+	width:90%;
+	height:120px;
+	margin:0 auto;
+}
+#recommend a{
+	display: block;
+	width:100%;
+	height:120px;
+}
+#recommend img{
+	width:100%;
+	height:120px;
+}
+
+#sell{
+	width:100%;
+	margin-top:40px;
+	border-top: 1px solid rgb(224, 224, 224);
+	border-bottom: 1px solid rgb(224, 224, 224);
+	overflow:hidden;
+}
+
+#sell .sell_ul{
+	width:100%;
+	padding-left:1%;
+	overflow:hidden;
+}
+
+#sell .sell_ul .sell_li{
+	width:33%;
+	height:736px;
+	border-right: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    float: left;
+}
+
+#sell .sell_ul .sell_li .sell_phone{
+	width:80%;
+	height:80%;
+	margin:15% 10% 10% 10%;
+}
+
+#sell .sell_ul .sell_li .sell_phone a{
+	display: block;
+	width:270px;
+	height:270px;
+	margin:0 auto;
+	margin-top:20px;
+}
+
+#sell .sell_ul .sell_li .sell_phone img{
+	width:270px;
+	height:270px;
+}
+
+.parameter li{
+	margin-top:10px;
+	text-align: center;
+}
+
+.add{
+	width: 320px;
+    height: 42px;
+    box-sizing: border-box;
+    border: 1px solid #6f6f6f;
+    border-radius: 4px;
+    margin-top:40px;
+    margin-left: 40px;
+    padding: 8px 14px 8px 14px;
+    color: #242728;
+    background-color: transparent;
+    text-align: center;
+    cursor: pointer;
+}
+
+.add:hover{
+	color: #fff;
+    background-color: #d20a2c;
+    border-color: #d20a2c;
+}
+.sell_phone .phone_name{
+	width: 100%;
+    height: 46px;
+    text-align: center;
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 46px;
+    margin-top:10px;
+}
+
+.color{
+	text-align: center;
+    color: #000;
+    font-size: 16px;
+}
+
+#login_box{
+	width:600px;
+	height:400px;
+	border:1px solid black;
+	position: fixed;
+	left:30%;
+	top:20%;
+	z-index: 8;
+	background-color: #ffffff;
+	display:none;
+}
+
+#login_box .con{
+	width:60%;
+	height:400px;
+	margin:0 auto;
+}
+#login_box .con .text{
+	width:100%;
+}
+#login_box .con span{
+	display: block;
+	width:50%;
+	height:40px;
+	font-size: 20px;
+	line-height: 40px;
+	float:left;
+	text-align: center;
+	color: #333;
+    font-weight: 500;
+    cursor: pointer;
+	
+}
+#login_box .con span:hover{
+	color: #be0000;
+}
+
+.login_form{
+	width:100%;
+}
+
+#account,#password{
+	width:98%;
+	height:50px;
+	background:none;
+	outline:none;
+	border:0px;
+	border-bottom: 1px solid #ccc;
+	font-size:20px;
+}
+#name{
+	margin-top:60px;
+}
+
+#login_btn{
+	background-color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ccc;
+    color: #000;
+    
+    width: 80%;
+    border-radius: 0;
+    line-height: 44px;
+    height: 44px;
+    font-weight: bold;
+    font-size: 14px;
+    background-image: none;
+    cursor: pointer;
+    border-radius: 26px;
+    text-align: center;
+    margin-top:30px;
+    margin-left:10%;
+}
+
+#login_btn:hover{
+	background-color: #be0000;
+	color:#fff;
+}
+
+.code_login{
+	width:150px;
+	height:150px;
+	margin:0 auto;
+	padding-top:130px;
+	display:none;
+}
+.code_login p{
+	text-align: center;
+	margin-top:10px;
+}
+
+#login_box .close{
+	width:50px;
+	height:50px;
+	font-size:30px;
+	position: absolute;
+	right:2px;
+	cursor: pointer;
+}
+
+.price{
+	color:#ff4c28;
+}
+
+.errormsg{
+	width:100%;
+	height:30px;
+	margin-top:20px;
+}
+.errormsg p{
+	display:block;
+	width:100%;
+	height:30px;
+	font-size: 16px;
+	line-height: 30px;
+	text-align: center;
+	color:#ff4c28;
+
+}

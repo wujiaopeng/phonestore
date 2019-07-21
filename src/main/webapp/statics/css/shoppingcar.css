@@ -1,0 +1,136 @@
+#shopping_list{
+    width:990px;
+    margin:50px auto 0 auto;
+}
+
+.title{
+    width:990px;
+    height: 32px;
+    line-height: 32px;
+    margin: 0 0 10px;
+    padding: 5px 0;
+    background: #f3f3f3;
+    border: 1px solid #e9e9e9;
+}
+.check,.num,.sum,.price,.action{
+    width:120px;
+    float:left;
+}
+.goods{
+    width:390px;
+    float:left;
+    text-align: center;
+
+}
+
+.list{
+    width:990px;
+    border-top: 1px solid #ccc;
+    margin-top:20px;
+}
+
+.list ul{
+    width:990px;
+}
+
+.list ul li{
+    width:990px;
+    border-bottom: 1px solid #ccc;
+}
+
+li .li_white{
+    width:990px;
+    height:26px;
+    background: #fff;
+    border-left: 1px solid #f1f1f1;
+    border-right: 1px solid #f1f1f1;
+}
+
+li .phone_inf{
+    width:990px;
+    height:150px;
+    background: #fff4e8;
+    border: 1px solid #f1f1f1;
+    color: #666;
+}
+
+.p_img,.p_num,.p_sum,.p_price,.delete{
+    width:125px;
+    float:left;
+}
+.p_img{
+    width:150px;
+    float:left;
+}
+.p_img img{
+    width:150px;
+}
+.p_inf{
+    width:320px;
+    padding-top:20px;
+    text-align: center;
+    float:left;
+}
+.p_num .addBtn{
+    float: left;
+    width:16px;
+}
+.p_num .join-money{
+    width:30px;
+    float: left;
+}
+
+.checkbox{
+    width:20px;
+    height:20px;
+    float:left;
+    margin-top:65px;
+}
+.p_sum h4{
+    margin-top:55px;
+}
+.p_price h4{
+    margin-top:55px;
+}
+.delete a{
+    display:block;
+    margin-top:55px;
+}
+.delete a:hover{
+    color: #E2231A;
+}
+
+
+#pay{
+    width:990px;
+    height: 50px;
+    border: 1px solid #f1f1f1;
+    border-right:0;
+    margin-top:20px;
+}
+
+.total{
+    height:50px;
+    line-height: 50px;
+    float:right;
+    margin-right:30px;
+}
+.total span{
+    font-size: 20px;
+    color: #E2231A;
+    font-weight: 700;
+}
+
+.topay{
+    width:94px;
+    height:50px;
+    line-height: 50px;
+    text-align: center;
+    background: #e54346;
+    font-size: 18px;
+    float:right;
+}
+
+.topay a{
+    color:#fff;
+}

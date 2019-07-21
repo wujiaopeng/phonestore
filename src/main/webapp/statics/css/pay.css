@@ -1,0 +1,103 @@
+#paybox{
+    width:990px;
+    margin:0 auto;
+    padding-top:20px;
+    overflow: hidden;
+}
+.orderbox{
+    width:980px;
+    padding-left: 10px;
+    margin-top:10px;
+    border: 1px solid #f0f0f0;
+}
+.orderbox .title{
+    margin-bottom: 10px;
+}
+.customerInf{
+    width:980px;
+}
+.customerInf .inf{
+    width:970px;
+    padding-left:10px;
+    height:40px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.goodlist{
+    width:980px;
+}
+.goodlist .list{
+    width:970px;
+    padding-left:10px;
+    border-bottom: 1px solid #f0f0f0;
+    overflow: hidden;
+}
+.goodlist .list ul{
+    width:970px;
+}
+.goodlist .list li{
+    display:block;
+    float:left;
+    width:970px;
+    height:100px;
+    background: #f3fbfe;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.good_img{
+    width:100px;
+    height:100px;
+    float:left;
+}
+li img{
+    width:100px;
+    height:100px;
+}
+.good_inf{
+    width:860px;
+    height:100px;
+    padding-left:10px;
+    float:left;
+}
+.good_inf .left{
+    width:330px;
+    height:80px;
+    float:left;
+    text-align: center;
+    padding-top:20px;
+}
+.good_inf .right{
+    width:240px;
+    height:100px;
+    text-align: center;
+    float: left;
+}
+.good_inf .right span{
+    display: block;
+    height:20px;
+    margin-top:40px;
+    color: #e4393c
+}
+
+.payway{
+    width:980px;
+    overflow: hidden;
+}
+.paychoose{
+    width:970px;
+    padding-left: 10px;
+}
+.nopay,.pay{
+    width:485px;
+    float:left;
+}
+
+.nopay a,.pay a{
+    display: block;
+    width:100px;
+    height:40px;
+    margin:20px auto 20px auto;
+    line-height: 40px;
+    color: #fff;
+    background: #D20A2C;
+    text-align: center;
+}

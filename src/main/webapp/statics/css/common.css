@@ -1,0 +1,398 @@
+*{
+	margin:0px;
+	padding:0px;
+	color: #6f6f6f;
+}
+
+body{
+	font-size: 16px;
+    font-family: "akkuratPro-regular",Helvetica,Arial,sans-serif,"&#24494;&#36719;&#38597;&#40657;","&#23435;&#20307;","Verdana,Arial,Helvetica,sans-serif";
+    margin: 0 auto;
+    color: #000;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	color: #000;
+}
+
+ul li{
+	list-style: none;
+}
+
+#header{
+	position: fixed;
+	width:100%;
+	height:65px;
+	padding: 0 5%;
+	text-align: center;
+	border-bottom: 1px solid rgba(111,111,111,0.5);
+	z-index:999;
+	background: #fff
+}
+
+#logo{
+	width:200px;
+	height:100%;
+	float: left;
+}
+#logo img{
+	width:110px;
+}
+
+#header .nav{
+	float: left;
+	margin-left:80px;
+}
+
+.line{
+	display: inline-block;
+    width: 1px;
+    height: 22px;
+    background-color: #e0e0e0;
+    float:left;
+    margin:0 4px;
+}
+#header .nav ul{
+	width:226px;
+	overflow: hidden;
+}
+#header .nav ul li{
+	display:block;
+	float:left;
+	height:25px;
+	padding:20px 0;
+}
+
+#header .nav ul li a{
+	display:block;
+	height:25px;
+	line-height: 25px;
+	float:left;
+}
+
+#header .right_box{
+	float:left;
+	margin-left:240px;
+	height:65px;
+	width:500px;
+}
+#header .right_box .customer_name{
+	width:150px;
+	padding-top:5px;
+	height:60px;
+	font-size: 20px;
+	line-height: 60px;
+	text-align: center;
+	color:#ff4c28;
+	float:left;
+}
+
+#header .login{
+	width:20px;
+	margin-top:25px;
+	height:25px;
+	float:left;
+}
+#header .login a{
+	display:block;
+	width:20px;
+	height:20px;
+}
+
+#header .right_box img{
+	width:20px;
+	height:20px;
+	cursor: pointer;
+}
+
+.right_box .line{
+	display: block;
+	margin-top:25px;
+	margin-left:20px;
+	margin-right:30px;
+	float:left;
+}
+
+.shoppingcar{
+	width:200px;
+	height:25px;
+	margin-top:22px;
+	overflow: hidden;
+	float:left;
+}
+.shoppingcar a{
+	display: block;
+	float:left;
+}
+.shoppingcar a img{
+	width:25px;
+	height:25px;
+}
+.ci-count{
+    display: inline-block;
+    padding: 1px;
+    font-size: 12px;
+    line-height: 12px;
+    color: #fff;
+    background-color: #f10215;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    width: 12px;
+    text-align: center;
+}
+.none{
+	height:65px;
+}
+.login_enter,.login_out{
+	width:180px;
+	height:120px;
+	border: 1px solid rgba(111,111,111,0.5);
+	position: fixed;
+	right:190px;
+	display:none;
+	z-index: 4;
+	background: #f9f9f9;
+}
+
+.login_btn{
+	width:100%;
+	height:59px;
+	border-bottom: 1px solid rgba(111,111,111,0.5);
+}
+
+.register_btn{
+	width:100%;
+	height:59px;
+}
+.logout_btn{
+	display:block;
+	width:100%;
+	height:119px;
+	font-size: 20px;
+	text-align: center;
+	line-height: 119px;
+}
+
+.register_btn,.login_btn a{
+	display: block;
+	width:100%;
+	height:59px;
+	line-height: 59px;
+	text-align: center;
+}
+
+.phone_sign{
+	width:100%;
+	height:400px;
+    position: absolute;
+    top: 66px;
+    background: #f9f9f9;
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,0.4);
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.4);
+    z-index: 1;
+    display: none;
+}
+
+.phone_sign .close{
+	width:100%;
+	height:50px;
+}
+
+.phone_sign .close img{
+	width:30px;
+	height:30px;
+	float:right;
+	margin-top:10px;
+	margin-right:150px;
+	cursor: pointer;
+}
+
+.phone_logo{
+	height:200px;
+	width:75%;
+	margin:0 auto;
+	padding-top:70px;
+}
+.phone_logo ul{
+	width:100%;
+	height:100%;
+}
+.phone_logo ul li{
+	display:block;
+	float:left;
+	width:12%;
+	height:100%;
+	margin-right:1%;
+}
+
+.phone_logo .more{
+	width:20%;
+	height:100%;
+	float:left;
+}
+
+.phone_logo .more .right-line{
+	float: left;
+    width: 1px;
+    height: 80%;
+    background: #e0e0e0;
+}
+
+.phone_logo .more .right_content a{
+	display: block;
+	width:40%;
+	margin-top:20%;
+	padding-left:20px;
+}
+
+.phone_logo a{
+	display: block;
+	width:100%;
+	height:100%;
+}
+
+.phone_logo li img{
+	width:80%;
+	height:50%;
+	margin-left:10%;
+}
+
+.phone_logo span{
+	display: block;
+	width:70%;
+	margin:0 auto;
+	text-align: center;
+	margin-top:10px;
+}
+
+
+
+
+
+#footer{
+	widht:100%;
+	height:300px;
+	background: #f9f9f9;
+	margin-top:1px;
+}
+
+#footer p{
+	font-size: 30px;
+	text-align: center;
+	line-height: 300px;
+}
+
+
+
+
+#login_box{
+	width:600px;
+	height:400px;
+	border:1px solid black;
+	position: fixed;
+	left:30%;
+	top:20%;
+	z-index: 8;
+	background-color: #ffffff;
+	display:none;
+}
+
+#login_box .con{
+	width:60%;
+	height:400px;
+	margin:0 auto;
+}
+#login_box .con .text{
+	width:100%;
+}
+#login_box .con span{
+	display: block;
+	width:50%;
+	height:40px;
+	font-size: 20px;
+	line-height: 40px;
+	float:left;
+	text-align: center;
+	color: #333;
+	font-weight: 500;
+	cursor: pointer;
+
+}
+#login_box .con span:hover{
+	color: #be0000;
+}
+
+.login_form{
+	width:100%;
+}
+
+#account,#password{
+	width:98%;
+	height:50px;
+	background:none;
+	outline:none;
+	border:0px;
+	border-bottom: 1px solid #ccc;
+	font-size:20px;
+}
+#name{
+	margin-top:60px;
+}
+
+#login_btn{
+	background-color: #fff;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #ccc;
+	color: #000;
+
+	width: 80%;
+	border-radius: 0;
+	line-height: 44px;
+	height: 44px;
+	font-weight: bold;
+	font-size: 14px;
+	background-image: none;
+	cursor: pointer;
+	border-radius: 26px;
+	text-align: center;
+	margin-top:30px;
+	margin-left:10%;
+}
+
+#login_btn:hover{
+	background-color: #be0000;
+	color:#fff;
+}
+
+.code_login{
+	width:150px;
+	height:150px;
+	margin:0 auto;
+	padding-top:130px;
+	display:none;
+}
+.code_login p{
+	text-align: center;
+	margin-top:10px;
+}
+
+#login_box .close{
+	width:50px;
+	height:50px;
+	font-size:30px;
+	position: absolute;
+	right:2px;
+	cursor: pointer;
+}
+
+#account{
+	margin-top: 30px;
+}
+#password,#login_btn{
+	margin-top: 20px;
+}
